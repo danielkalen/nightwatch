@@ -1,5 +1,5 @@
 {
-  "name": "nightwatch",
+  "name": "@danielkalen/nightwatch",
   "description": "A node.js bindings implementation for selenium 2.0/webdriver",
   "version": "0.9.16",
   "author": {
@@ -9,10 +9,10 @@
   "homepage": "http://nightwatchjs.org",
   "main": "./lib/index.js",
   "license": "MIT",
-  "bugs": "https://github.com/nightwatchjs/nightwatch/issues",
+  "bugs": "https://github.com/danielkalen/nightwatch/issues",
   "repository": {
     "type": "git",
-    "url": "git@github.com:nightwatchjs/nightwatch.git"
+    "url": "git@github.com:danielkalen/nightwatch.git"
   },
   "dependencies": {
     "chai-nightwatch": "~0.1.x",
@@ -21,7 +21,7 @@
     "lodash.defaultsdeep": "4.3.2",
     "minimatch": "3.0.3",
     "mkpath": "1.0.0",
-    "mocha-nightwatch": "3.2.2",
+    "@danielkalen/mocha-nightwatch": "3.2.2",
     "optimist": "0.6.1",
     "proxy-agent": "2.0.0",
     "q": "1.4.1"
