@@ -59,7 +59,7 @@ module.exports = {
           cb(false);
         }
       };
-      mockery.registerMock('mocha-nightwatch', Mocha);
+      mockery.registerMock('@danielkalen/mocha-nightwatch', Mocha);
       mockery.registerMock('../run.js', {
         setFinishCallback : function(cb) {},
         readPaths : function(source, settings, cb) {
@@ -110,7 +110,7 @@ module.exports = {
           cb(false);
         }
       };
-      mockery.registerMock('mocha-nightwatch', Mocha);
+      mockery.registerMock('@danielkalen/mocha-nightwatch', Mocha);
       mockery.registerMock('../run.js', {
         setFinishCallback : function() {},
         readPaths : function(source, settings, cb) {
@@ -163,7 +163,7 @@ module.exports = {
           cb(false);
         }
       };
-      mockery.registerMock('mocha-nightwatch', Mocha);
+      mockery.registerMock('@danielkalen/mocha-nightwatch', Mocha);
       mockery.registerMock('../run.js', {
         setFinishCallback : function() {},
         readPaths : function(source, settings, cb) {
